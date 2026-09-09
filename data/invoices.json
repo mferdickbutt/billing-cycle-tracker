@@ -1,0 +1,225 @@
+{
+  "targets": {
+    "quoteToSent": 2,
+    "sentToApproved": 5,
+    "approvedToPaid": 14
+  },
+  "invoices": [
+    {
+      "id": "INV-2026-001",
+      "client": "Northwind Labs",
+      "amount": 4800,
+      "quote": "2026-01-02",
+      "sent": "2026-01-03",
+      "approved": "2026-01-07",
+      "paid": "2026-01-21"
+    },
+    {
+      "id": "INV-2026-002",
+      "client": "Harbor Freight Co",
+      "amount": 12650,
+      "quote": "2026-01-06",
+      "sent": "2026-01-09",
+      "approved": "2026-01-15",
+      "paid": "2026-02-03"
+    },
+    {
+      "id": "INV-2026-003",
+      "client": "Maple Street Bakery",
+      "amount": 920,
+      "quote": "2026-01-10",
+      "sent": "2026-01-11",
+      "approved": "2026-01-14",
+      "paid": "2026-01-24"
+    },
+    {
+      "id": "INV-2026-004",
+      "client": "Blue Ridge HVAC",
+      "amount": 7400,
+      "quote": "2026-01-13",
+      "sent": "2026-01-15",
+      "approved": "2026-01-20",
+      "paid": "2026-02-05"
+    },
+    {
+      "id": "INV-2026-005",
+      "client": "QuickPay Retail",
+      "amount": 310,
+      "quote": "2026-01-16T09:00:00Z",
+      "sent": "2026-01-16T16:30:00Z",
+      "approved": "2026-01-18T11:00:00Z",
+      "paid": "2026-01-24T08:15:00Z"
+    },
+    {
+      "id": "INV-2026-006",
+      "client": "Elmwood Public Works",
+      "amount": 28400,
+      "quote": "2026-01-20",
+      "sent": "2026-01-24",
+      "approved": "2026-02-02",
+      "paid": "2026-03-02"
+    },
+    {
+      "id": "INV-2026-007",
+      "client": "Cedar Clinic",
+      "amount": 2150,
+      "quote": "2026-01-22",
+      "sent": "2026-01-23",
+      "approved": "2026-01-28",
+      "paid": "2026-02-11"
+    },
+    {
+      "id": "INV-2026-008",
+      "client": "Orbit Design Studio",
+      "amount": 5600,
+      "quote": "2026-01-27",
+      "sent": "2026-01-29",
+      "approved": "2026-02-02",
+      "paid": "2026-02-14"
+    },
+    {
+      "id": "INV-2026-009",
+      "client": "City of Elmwood",
+      "amount": 19300,
+      "quote": "2026-02-02",
+      "sent": "2026-02-03",
+      "approved": "2026-02-10",
+      "paid": "2026-03-03"
+    },
+    {
+      "id": "INV-2026-010",
+      "client": "Pinecone Software",
+      "amount": 9800,
+      "quote": "2026-02-05",
+      "sent": "2026-02-07",
+      "approved": "2026-02-12",
+      "paid": "2026-02-27"
+    },
+    {
+      "id": "INV-2026-011",
+      "client": "Lakeside Marina",
+      "amount": 4300,
+      "quote": "2026-02-09",
+      "sent": "2026-02-12",
+      "approved": "2026-02-20",
+      "paid": "2026-03-14"
+    },
+    {
+      "id": "INV-2026-012",
+      "client": "Brightline Legal",
+      "amount": 6750,
+      "quote": "2026-02-12",
+      "sent": "2026-02-13",
+      "approved": "2026-02-17",
+      "paid": "2026-02-28"
+    },
+    {
+      "id": "INV-2026-013",
+      "client": "Summit Roofing",
+      "amount": 15200,
+      "quote": "2026-02-16",
+      "sent": "2026-02-18",
+      "approved": "2026-02-24",
+      "paid": "2026-03-14"
+    },
+    {
+      "id": "INV-2026-014",
+      "client": "Daily Grind Cafe",
+      "amount": 480,
+      "quote": "2026-02-18",
+      "sent": "2026-02-19",
+      "approved": "2026-02-22",
+      "paid": "2026-03-03"
+    },
+    {
+      "id": "INV-2026-015",
+      "client": "Grant County Facilities",
+      "amount": 41200,
+      "quote": "2026-02-20",
+      "sent": "2026-02-25",
+      "approved": "2026-03-09",
+      "paid": "2026-04-08"
+    },
+    {
+      "id": "INV-2026-016",
+      "client": "Helio Marketing",
+      "amount": 3200,
+      "quote": "2026-02-24",
+      "sent": "2026-02-26",
+      "approved": "2026-03-03",
+      "paid": "2026-03-17"
+    },
+    {
+      "id": "INV-2026-017",
+      "client": "Westfield Dental",
+      "amount": 1875,
+      "quote": "2026-03-02",
+      "sent": "2026-03-03",
+      "approved": "2026-03-07",
+      "paid": "2026-03-20"
+    },
+    {
+      "id": "INV-2026-018",
+      "client": "Instant Copy Shop",
+      "amount": 145,
+      "quote": "2026-03-04",
+      "sent": "2026-03-04",
+      "approved": "2026-03-05",
+      "paid": "2026-03-12"
+    },
+    {
+      "id": "INV-2026-019",
+      "client": "Riverbend Logistics",
+      "amount": 8900,
+      "quote": "2026-03-06",
+      "sent": "2026-03-09",
+      "approved": "2026-03-15",
+      "paid": "2026-04-01"
+    },
+    {
+      "id": "INV-2026-020",
+      "client": "Atlas Construction",
+      "amount": 22600,
+      "quote": "2026-03-10",
+      "sent": "2026-03-12",
+      "approved": "2026-03-17",
+      "paid": "2026-04-06"
+    },
+    {
+      "id": "INV-2026-021",
+      "client": "Grant County Schools",
+      "amount": 17800,
+      "quote": "2026-03-12",
+      "sent": "2026-03-13",
+      "approved": "2026-03-21",
+      "paid": "2026-04-15"
+    },
+    {
+      "id": "INV-2026-022",
+      "client": "Willow Bookshop",
+      "amount": 640,
+      "quote": "2026-03-18",
+      "sent": "2026-03-20",
+      "approved": null,
+      "paid": null
+    },
+    {
+      "id": "INV-2026-023",
+      "client": "North Pier Catering",
+      "amount": 3900,
+      "quote": "2026-03-19",
+      "sent": "2026-03-21",
+      "approved": "2026-03-26",
+      "paid": null
+    },
+    {
+      "id": "INV-2026-024",
+      "client": "Draftwork Studio",
+      "amount": 2500,
+      "quote": "2026-03-24",
+      "sent": null,
+      "approved": null,
+      "paid": null
+    }
+  ]
+}

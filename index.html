@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Billing Cycle Tracker</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Billing Cycle Tracker</h1>
+        <p class="lede">
+          Stage days from
+          <span class="pipeline">quote → sent → approved → paid</span>.
+          Averages skip incomplete stages. Bottleneck is the stage whose average
+          is worst versus its target (defaults: 2 / 5 / 14 days).
+        </p>
+      </header>
+
+      <p id="status" class="status">Loading invoices…</p>
+
+      <section id="averages" class="cards" aria-label="Average days per stage"></section>
+      <section id="bottleneck" class="bottleneck" aria-live="polite"></section>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Invoice</th>
+              <th>Client</th>
+              <th class="num">Amount</th>
+              <th>Quote</th>
+              <th>Sent</th>
+              <th>Approved</th>
+              <th>Paid</th>
+              <th class="num">Quote→Sent</th>
+              <th class="num">Sent→Approved</th>
+              <th class="num">Approved→Paid</th>
+              <th class="num">Quote→Paid</th>
+            </tr>
+          </thead>
+          <tbody id="invoice-body"></tbody>
+        </table>
+      </div>
+
+      <p class="hint">
+        Day counts are UTC calendar days (not 24-hour elapsed time). Open this
+        page from GitHub Pages or
+        <code>python3 -m http.server</code> in the repo root.
+      </p>
+    </div>
+    <script src="./js/cycle.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
